@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.boxContainer{
+    display: flex;
+    flex-flow: column wrap;
+
+}
+div{
+    width: 80px;
+    height: 80px;
+    transition: all 0.350s ease-in-out;
+}   
+div:hover{
+    background-color: rgb(241, 116, 63);
+    
+}
+.black{
+    background-color: #333;
+}
+.white{
+    background-color: #fff;
+}
